@@ -96,3 +96,16 @@ body {
   background: #282727;
   z-index: 99999;
 }
+/*MenuIcon scc bars*/
+.MenuIcon {
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 5px 0;
+}
+/*Container for MenuIcon*/
+.container {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+}
