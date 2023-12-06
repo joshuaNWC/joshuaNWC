@@ -3,7 +3,11 @@
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
-
+@font-face {
+  font-family: "San Francisco Bold";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
 * {
   margin: 0;
 }
@@ -34,7 +38,7 @@ body {
 
 .page-main {
   flex-grow: 1;
-  background: #000000;
+  background: #ffffff;
 }
 
 .title {
@@ -52,6 +56,9 @@ body {
 .absoluteContainer {
   height: calc(100vh - 100px);
   z-index: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  display: flex;
   position: relative;
   padding-top: 280px;
   background-image: url("https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.large.jpg");
@@ -87,7 +94,10 @@ body {
 }
 
 .section2 {
-  height: calc(100vh - 100px);
+  flex-grow: 1;
+  overflow: hidden;
+
+  height: calc(300vh - 100px);
   z-index: 1;
   position: relative;
 }
@@ -108,4 +118,23 @@ body {
   display: inline-block;
   cursor: pointer;
   float: right;
+}
+
+.pictureImage img {
+  max-width: 120%;
+  max-height: auto;
+  padding-top: 280px;
+}
+
+.text2 {
+  font-family: "San Francisco Bold";
+  color: black;
+  font-size: 12vh;
+  text-align: left;
+  position: absolute;
+
+  left: 2%;
+  top: 2%;
+
+  z-index: 2;
 }
