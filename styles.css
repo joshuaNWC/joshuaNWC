@@ -97,7 +97,7 @@ body {
   flex-grow: 1;
   overflow: hidden;
 
-  height: calc(300vh - 100px);
+  height: calc(160vh - 100px);
   z-index: 1;
   position: relative;
 }
