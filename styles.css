@@ -136,18 +136,35 @@ body {
   z-index: 2;
 }
 
-
 .page-main {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
- 
+
 @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.section3 {
+  flex-grow: 1;
+  overflow: hidden;
+  background: #000000;
+  height: calc(160vh - 100px);
+  z-index: 1;
+  position: relative;
+}
+.video1 {
+  height: 100%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: 30vw;
+  top: 2vh;
 }
