@@ -168,3 +168,51 @@ body {
   right: 30vw;
   top: 2vh;
 }
+.MenuButtons {
+  background-color: #ffffff;
+  border-radius: 25px;
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+  position: relative;
+  margin: auto;
+  width: 100px;
+  height: 40px;
+  border: none;
+  text-align: middle;
+  outline: none;
+  font-size: 15px;
+  float: top;
+}
+
+.active,
+.MenuButtons: hover {
+  background-color: white;
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  font-family: "San Francisco";
+  font-size: 20px;
+}
+.FakeMenuButtons {
+  background-color: #ffffff;
+  border-radius: 25px;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  padding: 15px;
+  margin: auto;
+  width: text.length;
+  height: 40px;
+  border: none;
+  text-align: middle;
+  outline: none;
+  font-size: 12px;
+  float: top;
+}
