@@ -78,7 +78,8 @@ body {
   background-size: cover;
 }
 /* make the blue button */
-.button {
+a:link,
+a:visited {
   background-color: #0071e3;
   border: none;
   color: white;
@@ -95,11 +96,10 @@ body {
 
   z-index: 2;
 }
-
-.button1 {
-  border-radius: 30px;
+a:hover,
+a:active {
+  background-color: #5897fc;
 }
-
 /* create the second section of the body */
 .section2 {
   flex-grow: 1;
