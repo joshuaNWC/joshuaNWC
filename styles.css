@@ -100,6 +100,9 @@ a:hover,
 a:active {
   background-color: #5897fc;
 }
+.button1 {
+  border-radius: 30px;
+}
 /* create the second section of the body */
 .section2 {
   flex-grow: 1;
